@@ -1,2 +1,1 @@
-# tuansinguyen.github.io
-Si Nguyen's works.
+# Si Nguyen's works.
