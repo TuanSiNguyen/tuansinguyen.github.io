@@ -405,14 +405,48 @@
     }
 
     function init() {
+      var t, o;      
       // Listen for mouse movement when over either one of the parents
       // window.addEventListener('mousemove', onMouseMove)
-
+      window.addEventListener("mousedown", function(e) {
+        gsap.to(cursor, .2, {
+          x: t,
+          y: o,
+          ease: Cubic.easeOut,                        
+          
+          css: {scale:0.4,'background-color':'#fff'}
+        });
+      })
+      window.addEventListener("mouseup", function(e) {
+        gsap.to(cursor, .2, {
+          x: t,
+          y: o,
+          ease: Cubic.easeIn,                                  
+          css: {scale: 1,'background-color':'unset'}
+        });
+      })
+      links.forEach(link => {
+        link.addEventListener('mouseenter', e => {
+         gsap.to(cursor, {
+             duration: 0.2,
+             ease: Cubic.easeOut,             
+             
+             css: {scale: 1.7,'background-color':'white'}
+         })
+        });
+         link.addEventListener('mouseleave', e => {
+             gsap.to(cursor, {
+                 duration: 0.2,
+                 ease: Cubic.easeIn, 
+                 css: {scale: 1,'background-color':'unset'}
+             })
+         });
+     });
       window.addEventListener("mousemove", function(e) {
         // document.body.style.setProperty('--x',(e.clientX)+'px');
         // document.body.style.setProperty('--y',(e.clientY)+'px');
-        var t = 0,
-          o = 0;
+        t = 0,
+        o = 0;
         e || (e = window.event),
           e.pageX || e.pageY
             ? ((t = e.pageX), (o = e.pageY))
@@ -433,11 +467,10 @@
         var cursor = document.getElementById("cursor");
         var cursorDot = document.getElementById("cursor__dot");
         
-        gsap.to(cursor, 2.5, {
+        gsap.to(cursor, .55, {
             x: t,
             y: o,
-            ease: Back.easeOut.config(2.5)
-           
+            ease: Cubic.easeOut         
           });
         // gsap.to(cursor, 2, {
         //   x: t,
@@ -450,54 +483,45 @@
         });
 
 
-        $("a")
-    .mouseenter(function() {
-        gsap.to(cursor, 1, {
-            x: t,
-            y: o,
-            ease:Quad.easeInOut,
-            css:{scale:3.2}     
-          });
-    })
-    .mouseleave(function() {
-        gsap.to(cursor, 0.5, {
-            x: t,
-            y: o,
-            ease:Quad.easeInOut,
-            css:{scale:1}     
-          });
-    });
-    $(window)
-    .mousedown(function() {
-        gsap.to(cursor, 0.5, {
-            x: t,
-            y: o,
-            ease:Quad.easeInOut,
-            css:{scale:.2}     
-          });
-    })
-    .mouseup(function() {
-        gsap.to(cursor, 0.5, {
-            x: t,
-            y: o,
-            ease:Quad.easeInOut,
-            css:{scale:1}     
-          });
-    }); 
-        // links.forEach(link => {
-        //    link.addEventListener('mouseover', e => {
-        //     gsap.to(cursor, {
-        //         duration: 0.7,
-        //         scale: 1.8
-        //     })
-        //    });
-        //     link.addEventListener('mouseout', e => {
-        //         gsap.to(cursor, {
-        //             duration: 0.7,
-        //             scale: 1
+        // $("a")
+        //       .mouseenter(function() {
+        //           gsap.to(cursor, {
+                       
+        //                 alpha: .1,
+        //                 duration: .5,
+        //                 ease: "easeOutCubic",
+        //                 delay: .05 * t + .5,
+        //                 scale: 1.2
+        //             });
+        //       })
+        //       .mouseleave(function() {
+        //         gsap.to(cursor, {                     
+        //               alpha: .1,
+        //               duration: .5,
+        //               ease: "easeOutCubic",
+        //               delay: .05 * t + .5,
+        //               scale: 1
+        //           });
+        //       });
+        // $(window)
+        //         .mousedown(function() {
+        //             gsap.to(cursor, 2, {
+        //                 x: t,
+        //                 y: o,
+        //                 ease: Cubic.easeOut,                        
+        //                 css:{scale:0.4}     
+        //               });
         //         })
-        //     });
-        // });
+        //         .mouseup(function() {
+        //             gsap.to(cursor, 0.5, {
+        //                 x: t,
+        //                 y: o,
+        //                 css:{scale:1.0},
+        //                 ease: Cubic.easeIn,
+                                                     
+        //               });
+        //         }); 
+        
       });
     }
 

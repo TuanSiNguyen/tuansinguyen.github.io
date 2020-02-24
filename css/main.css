@@ -7,7 +7,9 @@
  * # base style overrides - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
-
+* {
+    cursor: none!important;
+}
 html {
     font-size: 10px;
     scroll-behavior: smooth;
@@ -1222,7 +1224,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-    font-family: "HelveticaNowText-Bold", serif;
+    font-family: "AvenirNextCyr-Bold", serif;
     font-size: 4.8rem;
     line-height: 1.375;
     margin-top: 0;
@@ -4101,8 +4103,8 @@ article.blog-single .blog-content {
 
 #cursor {
     z-index: 999;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 100%;
     display: flex;
     overflow: hidden;
