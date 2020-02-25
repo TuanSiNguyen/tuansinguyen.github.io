@@ -3,103 +3,272 @@
  *
  * ------------------------------------------------------------------- */
 
- /*
- * Japanese
+/*
+ * Japanese 
 ================================================================================ */
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+
+/*
+ * DIN Pro
+================================================================================ */
+/* 
+@font-face {
+  font-family: "DIN_Pro-Black";
+  src: url("../fonts/din_pro/DIN_Pro-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Black_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Black_Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Bold";
+  src: url("../fonts/din_pro/DIN_Pro-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Bold_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Bold_Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond";
+  src: url("../fonts/din_pro/DIN_Pro-Cond.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Black";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Black_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Black_Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Bold";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Bold_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Bold_Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Extlight";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Extlight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Extlight_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Extlight_Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Light";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Light_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Light_Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Medium";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Medium_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Medium_Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Thin";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Cond_Thin_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Cond_Thin_Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Extlight";
+  src: url("../fonts/din_pro/DIN_Pro-Extlight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Extlight_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Extlight_Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Light";
+  src: url("../fonts/din_pro/DIN_Pro-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Light_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Light_Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Medium";
+  src: url("../fonts/din_pro/DIN_Pro-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Medium_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Medium_Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Thin";
+  src: url("../fonts/din_pro/DIN_Pro-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro-Thin_Italic";
+  src: url("../fonts/din_pro/DIN_Pro-Thin_Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "DIN_Pro";
+  src: url("../fonts/din_pro/DIN_Pro.ttf") format("truetype");
+}
+
+*/
+
+/*
+ *  Gotham
+================================================================================ */
+@font-face {
+  font-family: "gotham-medium";
+  src: url("../fonts/gotham/Gotham-Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gotham-thin";
+  src: url("../fonts/gotham/Gotham-Thin.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gotham-ultra";
+  src: url("../fonts/gotham/Gotham-Ultra.otf") format("opentype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 /*
  * libre baskerville
 ================================================================================ */
 
 @font-face {
-    font-family: "librebaskerville-regular";
-    src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "librebaskerville-regular";
+  src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff")
+      format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "librebaskerville-italic";
-    src: url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "librebaskerville-italic";
+  src: url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff")
+      format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "librebaskerville-bold";
-    src: url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "librebaskerville-bold";
+  src: url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff")
+      format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
-
 
 /*
  * montserrat
 ================================================================================ */
 
 @font-face {
-    font-family: "montserrat-black";
-    src: url("../fonts/montserrat/montserrat-black-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-black-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-black";
+  src: url("../fonts/montserrat/montserrat-black-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat/montserrat-black-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-extrabold";
-    src: url("../fonts/montserrat/montserrat-extrabold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-extrabold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-extrabold";
+  src: url("../fonts/montserrat/montserrat-extrabold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-extrabold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-bold";
-    src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-bold";
+  src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-semibold";
-    src: url("../fonts/montserrat/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-semibold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-semibold";
+  src: url("../fonts/montserrat/montserrat-semibold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-semibold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-medium";
-    src: url("../fonts/montserrat/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-medium-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-medium";
+  src: url("../fonts/montserrat/montserrat-medium-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-medium-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-regular";
-    src: url("../fonts/montserrat/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-regular";
+  src: url("../fonts/montserrat/montserrat-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-light";
-    src: url("../fonts/montserrat/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-light-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-light";
+  src: url("../fonts/montserrat/montserrat-light-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat/montserrat-light-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-extralight";
-    src: url("../fonts/montserrat/montserrat-extralight-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-extralight-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-extralight";
+  src: url("../fonts/montserrat/montserrat-extralight-webfont.woff2")
+      format("woff2"),
+    url("../fonts/montserrat/montserrat-extralight-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "montserrat-thin";
-    src: url("../fonts/montserrat/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat/montserrat-thin-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "montserrat-thin";
+  src: url("../fonts/montserrat/montserrat-thin-webfont.woff2") format("woff2"),
+    url("../fonts/montserrat/montserrat-thin-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 /*
@@ -107,202 +276,249 @@
 ================================================================================ */
 
 @font-face {
-    font-family: "AvenirNextCyr-Bold";
-    src: url("../fonts/avenir/AvenirNextCyr-Bold.woff2") format("woff2"), url("../fonts/avenir/AvenirNextCyr-Bold.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Bold";
+  src: url("../fonts/avenir/AvenirNextCyr-Bold.woff2") format("woff2"),
+    url("../fonts/avenir/AvenirNextCyr-Bold.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-BoldItalic";
-    src: url("../fonts/avenir/AvenirNextCyr-BoldItalic.woff2") format("woff2"), url("../fonts/avenir/AvenirNextCyr-BoldItalic.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-BoldItalic";
+  src: url("../fonts/avenir/AvenirNextCyr-BoldItalic.woff2") format("woff2"),
+    url("../fonts/avenir/AvenirNextCyr-BoldItalic.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-Demi";
-    src: url("../fonts/avenir/AvenirNextCyr-Demi.woff2") format("woff2"), url("../fonts/avenir/AvenirNextCyr-Demi.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Demi";
+  src: url("../fonts/avenir/AvenirNextCyr-Demi.woff2") format("woff2"),
+    url("../fonts/avenir/AvenirNextCyr-Demi.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "AvenirNextCyr-DemiItalic";
-    src: url("../fonts/avenir/AvenirNextCyr-DemiItalic.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-DemiItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-DemiItalic";
+  src: url("../fonts/avenir/AvenirNextCyr-DemiItalic.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-DemiItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-Heavy";
-    src: url("../fonts/avenir/AvenirNextCyr-Heavy.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-Heavy.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Heavy";
+  src: url("../fonts/avenir/AvenirNextCyr-Heavy.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-Heavy.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-HeavyItalic";
-    src: url("../fonts/avenir/AvenirNextCyr-HeavyItalic.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-HeavyItalic.woff") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-HeavyItalic";
+  src: url("../fonts/avenir/AvenirNextCyr-HeavyItalic.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-HeavyItalic.woff") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-Italic";
-    src: url("../fonts/avenir/AvenirNextCyr-Italic.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-Italic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Italic";
+  src: url("../fonts/avenir/AvenirNextCyr-Italic.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-Italic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-Light";
-    src: url("../fonts/avenir/AvenirNextCyr-Light.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-Light.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Light";
+  src: url("../fonts/avenir/AvenirNextCyr-Light.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-LightItalic";
-    src: url("../fonts/avenir/AvenirNextCyr-LightItalic.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-LightItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-LightItalic";
+  src: url("../fonts/avenir/AvenirNextCyr-LightItalic.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-LightItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-Medium";
-    src: url("../fonts/avenir/AvenirNextCyr-Medium.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-Medium.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Medium";
+  src: url("../fonts/avenir/AvenirNextCyr-Medium.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-MediumItalic";
-    src: url("../fonts/avenir/AvenirNextCyr-MediumItalic.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-MediumItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-MediumItalic";
+  src: url("../fonts/avenir/AvenirNextCyr-MediumItalic.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-MediumItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-Regular";
-    src: url("../fonts/avenir/AvenirNextCyr-Regular.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-Regular.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Regular";
+  src: url("../fonts/avenir/AvenirNextCyr-Regular.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-Thin";
-    src: url("../fonts/avenir/AvenirNextCyr-Thin.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-Thin.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-Thin";
+  src: url("../fonts/avenir/AvenirNextCyr-Thin.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-Thin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-ThinItalic";
-    src: url("../fonts/avenir/AvenirNextCyr-ThinItalic.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-ThinItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-ThinItalic";
+  src: url("../fonts/avenir/AvenirNextCyr-ThinItalic.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-ThinItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-UltraLight";
-    src: url("../fonts/avenir/AvenirNextCyr-UltraLight.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-UltraLight.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-UltraLight";
+  src: url("../fonts/avenir/AvenirNextCyr-UltraLight.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-UltraLight.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "AvenirNextCyr-UltraLightIt";
-    src: url("../fonts/avenir/AvenirNextCyr-UltraLightIt.woff") format("woff"), url("../fonts/avenir/AvenirNextCyr-UltraLightIt.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "AvenirNextCyr-UltraLightIt";
+  src: url("../fonts/avenir/AvenirNextCyr-UltraLightIt.woff") format("woff"),
+    url("../fonts/avenir/AvenirNextCyr-UltraLightIt.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
-
 
 /*
  * helvitica now
 ================================================================================ */
 
 @font-face {
-    font-family: "HelveticaNowText-Black";
-    src: url("../fonts/helveticanow/HelveticaNowText-Black.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-Black.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-Black";
+  src: url("../fonts/helveticanow/HelveticaNowText-Black.woff") format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-BlackItalic";
-    src: url("../fonts/helveticanow/HelveticaNowText-BlackItalic.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-BlackItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-BlackItalic";
+  src: url("../fonts/helveticanow/HelveticaNowText-BlackItalic.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-BlackItalic.woff2")
+      format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-Bold";
-    src: url("../fonts/helveticanow/HelveticaNowText-Bold.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-Bold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-Bold";
+  src: url("../fonts/helveticanow/HelveticaNowText-Bold.woff") format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-BoldItalic";
-    src: url("../fonts/helveticanow/HelveticaNowText-BoldItalic.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-BoldItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-BoldItalic";
+  src: url("../fonts/helveticanow/HelveticaNowText-BoldItalic.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-BoldItalic.woff2")
+      format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-ExtBdIta";
-    src: url("../fonts/helveticanow/HelveticaNowText-ExtBdIta.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-ExtBdIta.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-ExtBdIta";
+  src: url("../fonts/helveticanow/HelveticaNowText-ExtBdIta.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-ExtBdIta.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-ExtLtIta";
-    src: url("../fonts/helveticanow/HelveticaNowText-ExtLtIta.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-ExtLtIta.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-ExtLtIta";
+  src: url("../fonts/helveticanow/HelveticaNowText-ExtLtIta.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-ExtLtIta.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-ExtraBold";
-    src: url("../fonts/helveticanow/HelveticaNowText-ExtraBold.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-ExtraBold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-ExtraBold";
+  src: url("../fonts/helveticanow/HelveticaNowText-ExtraBold.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-ExtraBold.woff2")
+      format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-ExtraLight";
-    src: url("../fonts/helveticanow/HelveticaNowText-ExtraLight.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-ExtraLight.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-ExtraLight";
+  src: url("../fonts/helveticanow/HelveticaNowText-ExtraLight.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-ExtraLight.woff2")
+      format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-Light";
-    src: url("../fonts/helveticanow/HelveticaNowText-Light.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-Light.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-Light";
+  src: url("../fonts/helveticanow/HelveticaNowText-Light.woff") format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-LightItalic";
-    src: url("../fonts/helveticanow/HelveticaNowText-LightItalic.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-LightItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-LightItalic";
+  src: url("../fonts/helveticanow/HelveticaNowText-LightItalic.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-LightItalic.woff2")
+      format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-Medium";
-    src: url("../fonts/helveticanow/HelveticaNowText-Medium.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-Medium.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-Medium";
+  src: url("../fonts/helveticanow/HelveticaNowText-Medium.woff") format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-MediumItalic";
-    src: url("../fonts/helveticanow/HelveticaNowText-MediumItalic.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-MediumItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-MediumItalic";
+  src: url("../fonts/helveticanow/HelveticaNowText-MediumItalic.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-MediumItalic.woff2")
+      format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-RegIta";
-    src: url("../fonts/helveticanow/HelveticaNowText-RegIta.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-RegIta.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-RegIta";
+  src: url("../fonts/helveticanow/HelveticaNowText-RegIta.woff") format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-RegIta.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-Regular";
-    src: url("../fonts/helveticanow/HelveticaNowText-Regular.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-Regular.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-Regular";
+  src: url("../fonts/helveticanow/HelveticaNowText-Regular.woff") format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-Thin";
-    src: url("../fonts/helveticanow/HelveticaNowText-Thin.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-Thin.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-Thin";
+  src: url("../fonts/helveticanow/HelveticaNowText-Thin.woff") format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-Thin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
 @font-face {
-    font-family: "HelveticaNowText-ThinItalic";
-    src: url("../fonts/helveticanow/HelveticaNowText-ThinItalic.woff") format("woff"), url("../fonts/helveticanow/HelveticaNowText-ThinItalic.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "HelveticaNowText-ThinItalic";
+  src: url("../fonts/helveticanow/HelveticaNowText-ThinItalic.woff")
+      format("woff"),
+    url("../fonts/helveticanow/HelveticaNowText-ThinItalic.woff2")
+      format("woff2");
+  font-style: normal;
+  font-weight: normal;
 }
