@@ -1493,7 +1493,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-menu-toggle {
-    display: none;
+    /* display: none; */
     position: absolute;
     right: 29px;
     top: 18px;
