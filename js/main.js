@@ -467,10 +467,10 @@
         var cursor = document.getElementById("cursor");
         var cursorDot = document.getElementById("cursor__dot");
         
-        gsap.to(cursor, .55, {
+        gsap.to(cursor, .7, {
             x: t,
             y: o,
-            ease: Cubic.easeOut         
+            ease: Power4.easeOut     
           });
         // gsap.to(cursor, 2, {
         //   x: t,
