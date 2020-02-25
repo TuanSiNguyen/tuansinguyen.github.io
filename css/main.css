@@ -1494,7 +1494,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-menu-toggle {
-    display: none;
+    /* display: none; */
     position: absolute;
     right: 29px;
     top: 18px;
@@ -1754,9 +1754,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "HelveticaNowText-Bold", serif;
+    font-family: "HelveticaNowText-Medium", serif;
     color: #FFFFFF;
-    font-size: 6rem;
+    font-size: 4rem;
     line-height: 1.35;
     margin-top: 0;
 }
