@@ -16,7 +16,7 @@
 /*
  * DIN Pro
 ================================================================================ */
- 
+ /*
 @font-face {
   font-family: "DIN_Pro-Black";
   src: url("../fonts/din_pro/DIN_Pro-Black.ttf") format("truetype");
@@ -30,7 +30,7 @@
   font-family: "DIN_Pro-Bold";
   src: url("../fonts/din_pro/DIN_Pro-Bold.ttf") format("truetype");
 }
-/*
+
 @font-face {
   font-family: "DIN_Pro-Bold_Italic";
   src: url("../fonts/din_pro/DIN_Pro-Bold_Italic.ttf") format("truetype");
@@ -137,8 +137,22 @@
   font-family: "DIN_Pro";
   src: url("../fonts/din_pro/DIN_Pro.ttf") format("truetype");
 }
+/*
+ * Roboto & Raleway
+================================================================================ */
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap&subset=cyrillic,cyrillic-ext,vietnamese');
 
-*/
+/*
+ * SVN  Circular
+================================================================================ */
+@font-face {font-family: "Circular Black Italic";src: url("../fonts/circular/SVN-Circular Black Italic.woff2") format("woff2"), url("../fonts/circular/SVN-CircularBlackItalic.woff") format("woff");font-style: normal;font-weight: normal;}
+@font-face {font-family: "Circular Black";src: url("../fonts/circular/SVN-Circular Black.woff2") format("woff2"), url("../fonts/circular/SVN-CircularBlack.woff") format("woff");font-style: normal;font-weight: normal;}
+@font-face {font-family: "Circular Bold Italic";src: url("../fonts/circular/SVN-Circular Bold Italic.woff2") format("woff2"), url("../fonts/circular/SVN-CircularBoldItalic.woff") format("woff");font-style: normal;font-weight: normal;}
+@font-face {font-family: "Circular Bold";src: url("../fonts/circular/SVN-Circular Bold.woff2") format("woff2"), url("../fonts/circular/SVN-CircularBold.woff") format("woff");font-style: normal;font-weight: normal;}
+@font-face {font-family: "Circular Book Italic";src: url("../fonts/circular/SVN-Circular Book Italic.woff2") format("woff2"), url("../fonts/circular/SVN-CircularBookItalic.woff") format("woff");font-style: normal;font-weight: normal;}
+@font-face {font-family: "Circular Book";src: url("../fonts/circular/SVN-Circular Book.woff2") format("woff2"), url("../fonts/circular/SVN-CircularBook.woff") format("woff");font-style: normal;font-weight: normal;}
+@font-face {font-family: "Circular Medium Italic";src: url("../fonts/circular/SVN-Circular Medium Italic.woff2") format("woff2"), url("../fonts/circular/SVN-CircularMediumItalic.woff") format("woff");font-style: normal;font-weight: normal;}
+@font-face {font-family: "Circular Medium";src: url("../fonts/circular/SVN-Circular Medium.woff2") format("woff2"), url("../fonts/circular/SVN-CircularMedium.woff") format("woff");font-style: normal;font-weight: normal;}
 
 /*
  *  Gotham
@@ -196,86 +210,6 @@
   font-weight: normal;
 }
 
-/*
- * montserrat
-================================================================================ */
-
-@font-face {
-  font-family: "montserrat-black";
-  src: url("../fonts/montserrat/montserrat-black-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat/montserrat-black-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-extrabold";
-  src: url("../fonts/montserrat/montserrat-extrabold-webfont.woff2")
-      format("woff2"),
-    url("../fonts/montserrat/montserrat-extrabold-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-bold";
-  src: url("../fonts/montserrat/montserrat-bold-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat/montserrat-bold-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-semibold";
-  src: url("../fonts/montserrat/montserrat-semibold-webfont.woff2")
-      format("woff2"),
-    url("../fonts/montserrat/montserrat-semibold-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-medium";
-  src: url("../fonts/montserrat/montserrat-medium-webfont.woff2")
-      format("woff2"),
-    url("../fonts/montserrat/montserrat-medium-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-regular";
-  src: url("../fonts/montserrat/montserrat-regular-webfont.woff2")
-      format("woff2"),
-    url("../fonts/montserrat/montserrat-regular-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-light";
-  src: url("../fonts/montserrat/montserrat-light-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat/montserrat-light-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-extralight";
-  src: url("../fonts/montserrat/montserrat-extralight-webfont.woff2")
-      format("woff2"),
-    url("../fonts/montserrat/montserrat-extralight-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "montserrat-thin";
-  src: url("../fonts/montserrat/montserrat-thin-webfont.woff2") format("woff2"),
-    url("../fonts/montserrat/montserrat-thin-webfont.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
 /*
  * avernir next 
 ================================================================================ */
@@ -398,7 +332,7 @@
 /*
  * helvitica now
 ================================================================================ */
-
+/* 
 @font-face {
   font-family: "HelveticaNowText-Black";
   src: url("../fonts/helveticanow/HelveticaNowText-Black.woff") format("woff"),
@@ -526,4 +460,4 @@
       format("woff2");
   font-style: normal;
   font-weight: normal;
-}
+} */
