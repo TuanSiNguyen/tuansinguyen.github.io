@@ -1694,9 +1694,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .8;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
@@ -4167,10 +4167,21 @@ article.blog-single .blog-content {
 /* ------------------------------------------------------------------- 
  * Japanese
  * ------------------------------------------------------------------- */
-.jp{
+.jp01{
     font-family: 'Noto Sans JP', "AvenirNextCyr-Regular", sans-serif!important;
+}
+.jp01.tate{
     writing-mode: vertical-rl;
     transform: rotate(-90deg) translateX(-7px)!important;
+}
+.jp01.head-line{
+   font-size: 60px;
+   color: white;
+}
+.jp02{
+    font-family: "hakusu-pro", "AvenirNextCyr-Regular", sans-serif!important;
+    writing-mode: vertical-rl;
+    color: white;
 }
  /* ------------------------------------------------------------------- 
  * 

@@ -8,15 +8,20 @@
 ================================================================================ */
 
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+@font-face {
+  font-family: "hakusu-pro";
+  src: url("../fonts/jap/hkgyoprokk.ttf") format("truetype");
+}
 
 /*
  * DIN Pro
 ================================================================================ */
-/* 
+ 
 @font-face {
   font-family: "DIN_Pro-Black";
   src: url("../fonts/din_pro/DIN_Pro-Black.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "DIN_Pro-Black_Italic";
   src: url("../fonts/din_pro/DIN_Pro-Black_Italic.ttf") format("truetype");
@@ -25,6 +30,7 @@
   font-family: "DIN_Pro-Bold";
   src: url("../fonts/din_pro/DIN_Pro-Bold.ttf") format("truetype");
 }
+/*
 @font-face {
   font-family: "DIN_Pro-Bold_Italic";
   src: url("../fonts/din_pro/DIN_Pro-Bold_Italic.ttf") format("truetype");
@@ -270,9 +276,8 @@
   font-style: normal;
   font-weight: normal;
 }
-
 /*
- * avernir next
+ * avernir next 
 ================================================================================ */
 
 @font-face {
