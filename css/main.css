@@ -6,7 +6,7 @@
  *
  * ------------------------------------------------------------------- */
 * {
-  cursor: none !important;
+  /* cursor: none !important; */
 }
 html {
   font-size: 10px;
@@ -22,18 +22,21 @@ html {
 html,
 body {
   height: 100%;
-  cursor: none;
+  /* cursor: none; */
 }
 
 body {
   background: #0a0809;
-  font-family: "Muli", "HelveticaNowText-Regular", serif;
-  font-size: 1.6rem;
-  line-height: 1.875;
-  color: #5f5f5f;
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
+  font-family: Muli, Arial, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: normal;
+line-height: 28px;
+text-transform: none;
+color: #111111;
+margin: 0;
+padding: 0;
 }
 /* .cursor:before {
     content:"";
@@ -193,7 +196,7 @@ p img {
 }
 
 p.lead {
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 2rem;
   line-height: 1.8;
   margin-bottom: 3.6rem;
@@ -250,7 +253,7 @@ blockquote:before {
 }
 
 blockquote p {
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   padding: 0;
   font-size: 2.1rem;
   line-height: 1.857;
@@ -259,7 +262,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.4rem;
   font-style: normal;
   line-height: 1.5;
@@ -623,7 +626,7 @@ select {
   border: 0;
   outline: none;
   color: #333333;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.5rem;
   line-height: 3rem;
   max-width: 100%;
@@ -723,7 +726,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   line-height: inherit;
 }
 
@@ -731,7 +734,7 @@ label > input[type="checkbox"],
 label > input[type="radio"] {
   margin: 0;
   position: relative;
-  top: 0.15rem;
+  top: 0.6rem;
 }
 
 /* ------------------------------------------------------------------- 
@@ -787,7 +790,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Circular Semi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -910,7 +913,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.5rem;
   line-height: 1.6;
 }
@@ -1096,7 +1099,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "Circular Semi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   border: none;
   color: #151515;
 }
@@ -1109,7 +1112,7 @@ input::-moz-focus-inner {
   display: block;
   margin: 0.6rem 0 0 0;
   font-size: 1.4rem;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #6c6c6c;
 }
 
@@ -1155,7 +1158,7 @@ input::-moz-focus-inner {
   right: 0;
   top: -3.6rem;
   display: block;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #ffffff;
   font-size: 1.1rem;
   line-height: 1;
@@ -1278,18 +1281,19 @@ input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-  font-family: "Circular Bold", serif;
+  Font-Family: 'Merriweather', Serif;
   font-size: 4.8rem;
   line-height: 1.375;
   margin-top: 0;
+  font-weight: 500;
 }
 
 .section-intro h3 {
-  font-family: "Circular Semi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2rem;
   color: #862121;
   text-transform: uppercase;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.6rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -1387,7 +1391,7 @@ input::-moz-focus-inner {
 }
 
 .blog-list .blog-date {
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.5rem;
   color: #862121;
 }
@@ -1465,7 +1469,7 @@ input::-moz-focus-inner {
 
 .s-header {
   width: 100%;
-  height: 72px;
+  height: 69px;
   background-color: transparent;
   position: absolute;
   top: 0;
@@ -1552,7 +1556,7 @@ input::-moz-focus-inner {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -1638,20 +1642,22 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-nav-wrap {
-  font-family: "Circular Regular", sans-serif;
-  font-size: 11px;
-  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  /* font-size: 11px; */
+  /* text-transform: uppercase; */
   letter-spacing: 0.25rem;
   position: absolute;
   /* top: 9px; */
   right: 50px;
+  font-size: 1.618rem;
+  font-weight: 300;
 }
 
 .header-nav {
   display: inline-block;
   list-style: none;
   margin: 0;
-  height: 72px;
+  height: 69px;
 }
 
 .header-nav li {
@@ -1662,19 +1668,13 @@ input::-moz-focus-inner {
 
 .header-nav li a {
   display: block;
-  line-height: 72px;
+  line-height: 69px;
   color: #ffffff;
 }
 
-.header-nav li.current a {
-  font-family: "Circular Black", sans-serif;
-  /* border-bottom: 2px solid #af2b2b; */
-  text-decoration: underline;
-  text-underline-position: under;
-  color: white;
-  font-weight: 800;  
-  font-size: 1.777em;
-}
+/* .header-nav li.current a {
+
+}  */
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1862,7 +1862,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-  font-family: "Circular Semi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -1951,7 +1951,8 @@ input::-moz-focus-inner {
 }
 
 .home-social span {
-  color: #af2b2b;
+  font-family: "Muli",sans-serif;
+  color: white;
   right: 3.6rem;
   font-size: 1.3rem;
   opacity: 0;
@@ -2153,7 +2154,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
   .home-content {
-    padding-bottom: 15rem;
+    padding-bottom: 6rem;
   }
   .home-content h1 {
     font-size: 4.2rem;
@@ -2224,14 +2225,14 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-about {
-  padding-top: 15rem;
+  padding-top: 6rem;
   padding-bottom: 9rem;
   background-color: #ffffff;
   position: relative;
 }
 
 .about-content {
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .about-content .left {
@@ -2285,7 +2286,7 @@ html.no-csstransitions .home-content__main {
   font-size: 1.4rem;
   line-height: 1.5;
   text-transform: uppercase;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.6rem;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 0.9rem;
   font-family: "Circular Bold", sans-serif;
@@ -2377,8 +2378,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-works {
-  padding-top: 15rem;
-  padding-bottom: 15.6rem;
+  padding-top: 6rem;
+  padding-bottom: 9rem;
   background-color: #f1f1f1;
   position: relative;
 }
@@ -2500,18 +2501,20 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__title {
   color: #ffffff;
-  font-family: "Circular Semi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   margin: 0;
+  font-weight: 700;
 }
 
 .item-folio__cat {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: "Circular Regular", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Muli", sans-serif;
   font-size: 1.5rem;
   margin-bottom: 0;
+  font-weight: 200;
 }
 
 .item-folio__caption {
@@ -2824,7 +2827,7 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__author span {
   display: block;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.3rem;
   color: rgba(95, 95, 95, 0.7);
   text-transform: none;
@@ -2896,7 +2899,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-blog {
-  padding-top: 15rem;
+  padding-top: 6rem;
   padding-bottom: 9.6rem;
   background-color: #ffffff;
   position: relative;
@@ -2985,7 +2988,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats h4 {
-  font-family: "Circular Semi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-top: 1.8rem;
   color: rgba(0, 0, 0, 0.4);
   font-size: 1.8rem;
@@ -3078,7 +3081,7 @@ html.no-csstransitions .home-content__main {
   background-image: url("../images/contact-bg.jpg");
   background-repeat: no-repeat;
   background-position: center, center;
-  padding-top: 13.2rem;
+  padding-top: 9rem;
   padding-bottom: 12rem;
   color: rgba(255, 255, 255, 0.5);
   position: relative;
@@ -3117,7 +3120,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field label {
-  font-family: "Circular Semi", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   line-height: 2.4rem;
   position: absolute;
@@ -3337,11 +3340,11 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 footer {
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 14px;
   padding: 6.6rem 0 4.2rem;
   text-align: center;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1);
 }
 
 footer a,
@@ -3367,7 +3370,7 @@ footer a:focus {
   list-style: none;
   margin-top: 3rem;
   margin-left: 0;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
@@ -3416,7 +3419,7 @@ footer a:focus {
 }
 
 .footer-bottom {
-  margin-top: 7.2rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -3428,7 +3431,7 @@ footer a:focus {
   content: "|";
   display: inline-block;
   padding: 0 1rem 0 1.2rem;
-  color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .footer-bottom .copyright span:last-child::after {
@@ -3593,7 +3596,7 @@ article.blog-single .blog-content {
 }
 
 .page-header__content {
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 2rem;
   line-height: 1.8;
   position: relative;
@@ -3814,7 +3817,7 @@ article.blog-single .blog-content {
 
 .blog-content__tags {
   margin-top: 6rem;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 .blog-content__tags span {
@@ -3849,7 +3852,7 @@ article.blog-single .blog-content {
 
 .blog-content__tags .blog-content__tag-list a {
   display: inline-block;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.3rem;
   line-height: inherit;
   color: #797979;
@@ -3893,7 +3896,7 @@ article.blog-single .blog-content {
 
 .blog-content__nav span {
   display: block;
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.6rem;
   color: #797979;
   margin-bottom: 1.2rem;
@@ -4119,7 +4122,7 @@ article.blog-single .blog-content {
 }
 
 .comment__meta {
-  font-family: "Circular Regular", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 1.45rem;
   line-height: 3rem;
   font-style: normal;
@@ -4255,7 +4258,7 @@ article.blog-single .blog-content {
  * Japanese
  * ------------------------------------------------------------------- */
 .jp01 {
-  font-family: "Noto Sans JP", "Circular Regular", sans-serif !important;
+  font-family: "Noto Sans JP", "Muli", sans-serif !important;
 }
 .jp01.tate {
   writing-mode: vertical-rl;
@@ -4266,7 +4269,7 @@ article.blog-single .blog-content {
   color: white;
 }
 .jp02 {
-  font-family: "hakusu-pro", "Circular Regular", sans-serif !important;
+  font-family: "hakusu-pro", "Muli", sans-serif !important;
   writing-mode: vertical-rl;
   color: white;
 }

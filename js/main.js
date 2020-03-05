@@ -428,7 +428,7 @@
       links.forEach(link => {
         link.addEventListener('mouseenter', e => {
          gsap.to(cursor, {
-             duration: 0.2,
+             duration: 0.5,
              ease: Cubic.easeOut,             
              
              css: {scale: 1.7,'background-color':'white'}
