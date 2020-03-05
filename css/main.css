@@ -1518,14 +1518,20 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 0;
   left: 50px;
-  top: 2.1vh;
-  /* -webkit-transform: translateY(-50%);
+<<<<<<<<< Temporary merge branch 1
+  top: 57%;
+=========
+  top: 40%;
+>>>>>>>>> Temporary merge branch 2
+  -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); */
   z-index: 501;
 }
+<<<<<<<<< Temporary merge branch 1
+=========
 .header-logo .singuyen img{
-    width: 150px;
+    width: 200px;
 }
 
 .header-logo h1 {
@@ -1638,7 +1644,11 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
 .header-nav-wrap {
-  font-family: "Circular Regular", sans-serif;
+<<<<<<<<< Temporary merge branch 1
+  font-family: "AvenirNextCyr-Bold", sans-serif;
+=========
+  font-family: "Circular Bold", sans-serif;
+>>>>>>>>> Temporary merge branch 2
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
@@ -1667,13 +1677,12 @@ input::-moz-focus-inner {
 }
 
 .header-nav li.current a {
-  font-family: "Circular Black", sans-serif;
-  /* border-bottom: 2px solid #af2b2b; */
-  text-decoration: underline;
-  text-underline-position: under;
-  color: white;
-  font-weight: 800;  
-  font-size: 1.777em;
+<<<<<<<<< Temporary merge branch 1
+  font-family: "AvenirNextCyr-Heavy", sans-serif;
+=========
+  font-family: "Circular Heavy", sans-serif;
+>>>>>>>>> Temporary merge branch 2
+  color: #af2b2b;
 }
 
 /* ------------------------------------------------------------------- 
