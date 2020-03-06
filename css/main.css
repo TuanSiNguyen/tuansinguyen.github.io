@@ -21,7 +21,9 @@ html {
 
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
   cursor: none;
 }
 
