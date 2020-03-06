@@ -57,7 +57,7 @@
       triggerHeight = hero.outerHeight() - 170;
 
     $WIN.on("scroll", function() {
-      var loc = $WIN.scrollTop();
+      var loc = $WIN.scrollTop(0);
 
       if (loc > triggerHeight) {
         hdr.addClass("sticky");
