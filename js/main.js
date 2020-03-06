@@ -11,7 +11,7 @@
       mailChimpURL: "" // mailchimp url
     },
     $WIN = $(window);
-
+    $WIN.scrollTop(0);
   // Add the User Agent to the <html>
   // will be used for IE10 detection (Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0))
   var doc = document.documentElement;
@@ -57,7 +57,7 @@
       triggerHeight = hero.outerHeight() - 170;
 
     $WIN.on("scroll", function() {
-      var loc = $WIN.scrollTop(0);
+      var loc = $WIN.scrollTop();
 
       if (loc > triggerHeight) {
         hdr.addClass("sticky");
