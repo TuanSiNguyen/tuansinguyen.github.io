@@ -1478,19 +1478,19 @@ input::-moz-focus-inner {
   z-index: 500;
 }
 
-.s-header.offset {
+/* .s-header.offset {
   -webkit-transform: translate3d(0, -100%, 0);
   -ms-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-}
+} */
 
-.s-header.scrolling {
+/* .s-header.scrolling {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-}
+} */
 
 .s-header.sticky {
   position: fixed;
