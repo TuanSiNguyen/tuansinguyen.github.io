@@ -90,7 +90,7 @@ h6,
 .h04,
 .h05,
 .h06 {
-  font-family: "Circular Medium", sans-serif;
+  font-family: "Muli", sans-serif;
   color: #0d0a0b;
   font-style: normal;
   font-weight: normal;
@@ -2292,11 +2292,31 @@ html.no-csstransitions .home-content__main {
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 0.6rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 1);
   margin-bottom: 0.9rem;
   font-family: "Circular Bold", sans-serif;
 }
 
+.timeline__header .timeline__company-title h3{
+  font-family: "Poiret One";
+  font-size: 2.618rem;
+  font-weight: 800;
+}
+
+.timeline__header .timeline__company-title h5{
+  font-family: "Muli";
+  font-size: 1.5rem;
+  border-bottom: black 1px solid;
+  width: 333px;
+  padding-bottom: 16px;
+}
+@media only screen and (max-width: 800px) {
+  .timeline__header .timeline__company-title h5{
+
+    width: 225px;
+
+}
+}
 .timeline__header h3 {
   line-height: 1.25;
   margin: 0 0 0.3rem 0;
@@ -2432,20 +2452,20 @@ html.no-csstransitions .home-content__main {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0.5;
   background: -moz-linear-gradient(
     top,
-    transparent 0%,
+    transparent 50%,
     rgba(0, 0, 0, 0.8) 100%
   );
   background: -webkit-linear-gradient(
     top,
-    transparent 0%,
+    transparent 50%,
     rgba(0, 0, 0, 0.8) 100%
   );
   background: linear-gradient(
     to bottom,
-    transparent 0%,
+    transparent 50%,
     rgba(0, 0, 0, 0.8) 100%
   );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
@@ -2946,9 +2966,11 @@ html.no-csstransitions .home-content__main {
   background-color: #f1f1f1;
   text-align: center;
 }
-
+.stats__col.col_brands{
+  padding-top: 35px;
+}
 .stats__col {
-  padding: 7.8rem 2rem 6.6rem;
+  padding: 15px;
   position: relative;
   overflow: hidden;
   white-space: nowrap;
@@ -3031,7 +3053,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight h4 {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 1);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3107,7 +3129,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .section-intro p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
@@ -3465,7 +3487,7 @@ footer a:focus {
   line-height: 60px;
   text-align: center;
   background: black;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
   text-align: center;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out;
@@ -4281,6 +4303,66 @@ article.blog-single .blog-content {
 /* ------------------------------------------------------------------- 
  * 
  * ------------------------------------------------------------------- */
+ .box {
+  display: inline-block;
+  float: left;
+  width: 160px;
+  position: relative;
+  height: 160px;
+  border: 1px solid #000;
+  z-index: 0;
+  transition: all .3s ease;
+  opacity: 1;
+  margin-right: -1px;
+}
+.box:hover {
+  z-index: 10;
+}
+.box:before, .box:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: pink;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  opacity: 1;
+}
+.box:before {
+  width: calc(100% + 2px);
+  height: 100%;
+  z-index: 1;
+  transition: height 1s ease, opacity .8s ease;
+}
+.box:after {
+  height: calc(100% + 2px);
+  width: 100%;
+  z-index: 1;
+  transition: width 1s ease, opacity .8s ease;
+}
+.box:hover:before, .box:focus:before {
+  transition: height .2s ease , opacity .3s ease;
+  height: 85%;
+  opacity: .7;
+}
+.box:hover:after, .box:focus:after {
+  transition: width .2s ease,  opacity .3s ease;
+  width: 85%;
+  opacity: .8;
+}
+.box__image {
+  fill: #000;
+  width: 60%;
+  will-change: width;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all .5s ease;
+  z-index: 2;
+}
 
 /* ------------------------------------------------------------------- 
  * 
