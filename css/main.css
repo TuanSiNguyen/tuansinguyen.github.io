@@ -2457,7 +2457,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a::before {
   display: block;
-  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(0, 0, 0, 0.8); */
   content: "";
   opacity: 0;
   visibility: hidden;
@@ -2969,7 +2969,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-  font-family: "HelveticaNowText-Bold", serif;
+  font-family: "Poiret One", serif;
   font-size: 7.2rem;
   line-height: 1;
   color: #0d0a0b;
