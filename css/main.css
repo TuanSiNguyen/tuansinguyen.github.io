@@ -5,9 +5,9 @@
  * # base style overrides - (_document-setup.scss)
  *
  * ------------------------------------------------------------------- */
-* {
+/* * {
   cursor: none !important;
-}
+} */
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -22,7 +22,7 @@ html {
 html,
 body {
   height: 100%;
-  cursor: none;
+  /* cursor: none; */
 }
 
 body {
@@ -711,11 +711,12 @@ select:focus {
 label,
 legend {
   font-family: "Poiret One", sans-serif;
-  font-size: 1.618rem;
+  font-size: 1.75rem;
   /* margin-bottom: 0.5rem; */
   /* line-height: 1.714; */
   color: white;
   display: block;  
+  font-weight: bold;
   /* border-bottom: 0.1px solid #ffd900; */
 }
 .bold-text{
@@ -1502,6 +1503,7 @@ input::-moz-focus-inner {
   opacity: 0;
   visibility: hidden;
   z-index: 600;
+  
 }
 
 .s-header.sticky .header-logo a {
@@ -1527,7 +1529,7 @@ input::-moz-focus-inner {
   margin: 0;
   padding: 0;
   left: 50px;
-  top: 2.1vh;
+  top: 18px;
   /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); */
@@ -1779,7 +1781,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   opacity: 0.5;
-  background-color: #111111;
+  background-color: #2c2c2c;
 }
 
 .no-js .s-home {
@@ -2272,7 +2274,7 @@ html.no-csstransitions .home-content__main {
 .timeline__block {
   position: relative;
   padding-left: 8rem;
-  min-height: 28.8rem;
+  min-height: 8.8rem;
 }
 
 .timeline__bullet {
@@ -2306,7 +2308,7 @@ html.no-csstransitions .home-content__main {
 .timeline__header .timeline__company-title h5{
   font-family: "Muli";
   font-size: 1.5rem;
-  border-bottom: black 1px solid;
+  /* border-bottom: black 1px solid; */
   width: 333px;
   padding-bottom: 16px;
 }
@@ -2382,6 +2384,9 @@ html.no-csstransitions .home-content__main {
   }
   .timeline__block {
     padding-left: 6rem;
+  }
+  .center-on-mobile{
+    text-align: center;
   }
 }
 
@@ -2537,7 +2542,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__cat {
   color: rgba(255, 255, 255, 1);
   font-family: "Muli", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 0;
   font-weight: 200;
 }
@@ -2663,6 +2668,11 @@ html.no-csstransitions .home-content__main {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .item-folio__text {
+    padding: 0 10px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .masonry .grid-sizer,
   .masonry__brick {
@@ -2967,7 +2977,20 @@ html.no-csstransitions .home-content__main {
   text-align: center;
 }
 .stats__col.col_brands{
-  padding-top: 35px;
+  /* padding-top: 35px; */
+  height: 176px;
+}
+.brands__block{
+  height:176px; min-width:200px; display:table-cell; vertical-align:middle; 
+}
+@media only screen and (max-width: 1300px) {
+.brands__block{
+  height: auto;
+  min-width: 200px;
+  display: inline-block;
+  padding: 25px 0;
+  vertical-align: middle;
+}
 }
 .stats__col {
   padding: 15px;
@@ -3055,7 +3078,6 @@ html.no-csstransitions .home-content__main {
 .stats__col--highlight h4 {
   color: rgba(255, 255, 255, 1);
 }
-
 /* ------------------------------------------------------------------- 
  * responsive:
  * stats
@@ -3372,6 +3394,7 @@ footer {
   padding: 6.6rem 0 4.2rem;
   text-align: center;
   color: rgba(255, 255, 255, 1);
+  background: #111111 url(../images/count-bg.jpg);
 }
 
 footer a,
@@ -4367,14 +4390,132 @@ article.blog-single .blog-content {
 /* ------------------------------------------------------------------- 
  * 
  * ------------------------------------------------------------------- */
-
+ .txt__black,
+ .txt__black legend,
+ .txt__black p{
+   color: black;
+ }
+ .pswp{
+   z-index: 601;
+ }
 /* ------------------------------------------------------------------- 
- * 
+ * GLITCH EFFECT
  * ------------------------------------------------------------------- */
 
+ .glitch {
+  font-size: 8.125em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.glitch:before, .glitch:after {
+  display: block;
+  content: attr(data-glitch);
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .8;
+}
+.glitch:after {
+  color: #f0f;
+  z-index: -2;
+}
+.glitch:before {
+  color: #0ff;
+  z-index: -1;
+}
+.glitch:hover:before {
+  -webkit-animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 5;
+          animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 5;
+}
+.glitch:hover:after {
+  animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 5;
+}
+
+@media only screen and (max-width: 400px) {
+  .glitch {
+    font-size: 3em;
+  }
+}
+@-webkit-keyframes glitch {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-5px, 5px);
+            transform: translate(-5px, 5px);
+  }
+  40% {
+    -webkit-transform: translate(-5px, -5px);
+            transform: translate(-5px, -5px);
+  }
+  60% {
+    -webkit-transform: translate(5px, 5px);
+            transform: translate(5px, 5px);
+  }
+  80% {
+    -webkit-transform: translate(5px, -5px);
+            transform: translate(5px, -5px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes glitch {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-5px, 5px);
+            transform: translate(-5px, 5px);
+  }
+  40% {
+    -webkit-transform: translate(-5px, -5px);
+            transform: translate(-5px, -5px);
+  }
+  60% {
+    -webkit-transform: translate(5px, 5px);
+            transform: translate(5px, 5px);
+  }
+  80% {
+    -webkit-transform: translate(5px, -5px);
+            transform: translate(5px, -5px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
 /* ------------------------------------------------------------------- 
- * 
+ * Scroll Bar
  * ------------------------------------------------------------------- */
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+.scrollbar::-webkit-scrollbar {
+  width:0px
+}
+/* set button(top and bottom of the scrollbar) */
+.scrollbar::-webkit-scrollbar-button {display:none}
+
+/* div box */
 
 /* ------------------------------------------------------------------- 
  * 

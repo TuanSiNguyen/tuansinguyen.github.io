@@ -5,7 +5,7 @@
 
 (function($) {
   "use strict";
-  const links = document.querySelectorAll("a");
+
   var cfg = {
       scrollDuration: 800, // smoothscroll duration
       mailChimpURL: "" // mailchimp url
@@ -16,7 +16,7 @@
   // will be used for IE10 detection (Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0))
   var doc = document.documentElement;
   doc.setAttribute("data-useragent", navigator.userAgent);
-
+  const links = document.querySelectorAll("a");
   /* Preloader
    * -------------------------------------------------- */
   var ssPreloader = function() {
@@ -369,10 +369,12 @@
       }
     });
   };
-  /* Logo Hover
+  /* Scroll Bar
    * ------------------------------------------------------ */
-  var scallingUp = function(){
-       
+  var scrollBar = function(){
+       // if no Webkit browser
+
+
   }
   
   /* Follow Mouse Cursor
@@ -562,7 +564,7 @@
     ssContactForm();
     ssBackToTop();
     followMouse();
-    // logoHover();
-    scallingUp();
+    scrollBar();
+    // scallingUp();
   })();
 })(jQuery);
