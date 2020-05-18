@@ -369,11 +369,12 @@
       }
     });
   };
-  /* Scroll Bar
+  /* GetIP
    * ------------------------------------------------------ */
-  var scrollBar = function(){
-       // if no Webkit browser
-
+  var GetIP = function(){
+  //   $.get("https://ipinfo.io", function(response) { 
+  //     console.log(response); 
+  // }, "json") 
 
   }
   
@@ -564,7 +565,7 @@
     ssContactForm();
     ssBackToTop();
     followMouse();
-    scrollBar();
+    GetIP();
     // scallingUp();
   })();
 })(jQuery);
